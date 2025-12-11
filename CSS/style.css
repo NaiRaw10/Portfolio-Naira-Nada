@@ -411,6 +411,7 @@ footer {
     position: fixed;
     background-color: rgb(84, 112, 64);
     height: 80px;
+    width: 768px;
     z-index: 99;
   }
 
