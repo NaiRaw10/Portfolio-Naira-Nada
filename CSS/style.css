@@ -183,7 +183,7 @@ button:active {
 }
 
 .skill-card {
-  background-color: rgba(37, 70, 47, 1);
+  background-color: rgb(86, 139, 86);
   color: white;
   padding: 15px 25px;
   border-radius: 12px;
@@ -193,7 +193,6 @@ button:active {
   text-align: center;
   display: flex;
   flex-direction: column;
-  background-image: linear-gradient(163deg, #89d4a7 0%, #334511 100%);
   border-radius: 20px;
   transition: all 0.3s;
 
@@ -209,6 +208,7 @@ button:active {
 
 .skill-card:hover {
   box-shadow: 0px 0px 20px 3px rgba(170, 218, 192, 0.3);
+  background-image: linear-gradient(163deg, #89d4a7 0%, #334511 100%);
   transform: scale(1.03);
 }
 
@@ -411,7 +411,7 @@ footer {
     position: fixed;
     background-color: rgb(84, 112, 64);
     height: 80px;
-    width: 768px;
+    width: 769px;
     z-index: 99;
   }
 
@@ -536,7 +536,7 @@ footer {
   }
 
   .skill-card {
-    background-color: rgba(37, 70, 47, 1);
+    background-color: rgb(86, 139, 86);
     color: white;
     padding: 10px 25px;
     border-radius: 12px;
@@ -546,6 +546,10 @@ footer {
     text-align: center;
     display: flex;
     flex-direction: column;
+
+    font-family: "Margarine", sans-serif;
+    font-weight: 200;
+    font-style: normal;
   }
 
   .skill-card img {
@@ -671,5 +675,301 @@ footer {
 
   button:hover {
     background-color: #45a049;
+  }
+}
+
+@media (max-width: 600px) {
+  nav {
+    display: flex;
+    position: fixed;
+    background-color: rgb(84, 112, 64);
+    height: 80px;
+    width: 600px;
+    z-index: 99;
+  }
+
+  .nav-text {
+    display: flex;
+    font-size: 1.2rem;
+    padding-left: 30px;
+    padding-top: 18px;
+    color: white;
+  }
+
+  .nav-item {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding-top: 30px;
+    padding-left: 70px;
+  }
+
+  .nav-item a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+
+  .nav-item :hover {
+    color: rgb(148, 148, 148);
+  }
+
+  .sosmed {
+    padding-left: 55px;
+    padding-top: 30px;
+  }
+
+  .sosmed a {
+    color: rgb(255, 255, 255);
+    padding: 5px;
+  }
+
+  .sosmed a :hover {
+    color: rgb(104, 158, 208);
+  }
+
+  header {
+    background-image: url(forest.bg.jpeg);
+    background-size: cover;
+    height: 500px;
+    border-radius: 0px 0px 200px 200px;
+    margin: 0;
+  }
+
+  .text-port {
+    text-align: center;
+    padding-top: 260px;
+    color: rgb(216, 216, 216);
+    font-size: 30px;
+    font-family: "Princess Sofia", cursive;
+    font-weight: 300;
+    font-style: normal;
+    -webkit-text-stroke: 0.1px rgb(239, 239, 239);
+  }
+
+  .aboutme {
+    display: contents;
+    background-color: rgb(50, 50, 50);
+    margin-top: 50px;
+  }
+
+  .aboutme-txt {
+    margin-top: -80px;
+  }
+
+  .aboutme-txt p {
+    margin-top: 10px;
+    margin-left: 115px;
+    width: 370px;
+    color: white;
+    text-align: center;
+
+    font-size: 13px;
+    font-family: "Margarine", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .pfp img {
+    width: 400px;
+    height: auto;
+    margin-left: 130px;
+    padding: 0;
+  }
+
+  .aboutme-txt h2 {
+    font-size: 40px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    text-align: center;
+
+    font-family: "Princess Sofia", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+  }
+
+  .button {
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 200px;
+    margin-left: 125px;
+    width: 100px;
+    height: 50px;
+  }
+
+  button {
+    padding: 10px;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+
+    font-size: 10px;
+    font-family: "Margarine", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }
+
+  .skills {
+    padding: 40px;
+    text-align: center;
+  }
+
+  .skills h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+
+  .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .skill-card {
+    background-color: rgb(86, 139, 86);
+    color: white;
+    padding: 10px 25px;
+    border-radius: 12px;
+    font-weight: bold;
+    width: 150px;
+    height: 110px; /* ukuran card */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+    font-family: "Margarine", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+
+  .skill-card img {
+    width: 50px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+  }
+
+  .project {
+    padding: 40px;
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  .project h2 {
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-family: "Princess Sofia", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    margin-bottom: 50px;
+  }
+
+  .border-project {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px 200px 65px;
+    margin-bottom: 200px;
+  }
+
+  .project-img {
+    width: 350px;
+    height: 350px;
+    border-radius: 30px;
+    margin: 20px;
+    background: #212121;
+    box-shadow: 15px 15px 30px rgb(25, 25, 25), -15px -15px 30px rgb(60, 60, 60);
+  }
+
+  .project-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+    display: block;
+  }
+
+  .project-img {
+    transition: transform 0.3s ease;
+  }
+
+  .project-img:hover {
+    z-index: 2;
+    transform: scale(1.04);
+  }
+
+  .logo {
+    color: white;
+    margin: 20px 0px 0px 0px;
+  }
+
+  .myinfo {
+    background-color: rgb(84, 112, 64);
+    border-radius: 20px;
+    width: 300px;
+    height: 415px;
+    margin-left: 10px;
+  }
+
+  .info {
+    display: flex;
+  }
+
+  .myinfo h2 {
+    margin: 30px;
+    font-family: "Princess Sofia", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+  }
+
+  form {
+    width: 150px;
+    height: 320px;
+    margin: 10px;
+    margin-left: 30px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    font-family: "Margarine", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border: solid rgb(47, 96, 60);
+    border-radius: 30px;
+    padding: 40px;
+  }
+
+  label {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    color: white;
+  }
+
+input,
+textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 132px;
+  max-width: 132px;
+}
+  .contact-h2 {
+    font-size: 30px;
+    font-family: "Princess Sofia", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 0;
   }
 }
