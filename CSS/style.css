@@ -914,7 +914,7 @@ footer {
     background-color: rgb(84, 112, 64);
     border-radius: 20px;
     width: 300px;
-    height: 415px;
+    height: 450px;
     margin-left: 10px;
   }
 
@@ -932,7 +932,7 @@ footer {
 
   form {
     width: 150px;
-    height: 320px;
+    height: 350px;
     margin: 10px;
     margin-left: 30px;
     margin-right: 10px;
@@ -951,7 +951,7 @@ footer {
   label {
     display: flex;
     flex-direction: column;
-    font-size: 15px;
+    font-size: 13px;
     color: white;
   }
 
